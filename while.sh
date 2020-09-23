@@ -65,6 +65,7 @@ else
       vCount=`ls ${vFileLocation} | wc -l`
       if [[ "${vCount}" == "1" ]]; then
           echo "file check done."
+          python ../hi.py
           break
       fi
   
